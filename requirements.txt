@@ -26,7 +26,7 @@ oauthlib==3.2.2
 php-wsgi==0.0.12
 Pillow==8.0.0
 psycopg2==2.9.3
-pycodestyle==2.7.0
+pycodestyle==2.11.0
 pycparser==2.21
 pyflakes==2.3.1
 PyJWT==2.8.0
