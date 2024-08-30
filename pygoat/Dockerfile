@@ -18,5 +18,9 @@ RUN pip install --no-cache-dir pip==22.0.4
 COPY ./requirements.txt /opt/app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Mend traceability labels
+LABEL io.mend.image.dockerfile.path=master/pygoat/Dockerfile
+LABEL org.opencontainers.image.source=https://github.com/GHCbflam1/pygoat
+
 # copy project
 COPY . /opt/app/
