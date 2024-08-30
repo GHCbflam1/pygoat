@@ -1,7 +1,7 @@
 {
   "settingsInheritedFrom": "GHCbflam1/whitesource-config@main",
-python.invokePipAsModule=true
-python.path=python3.7
-python.installVirtualenv=true
+  "python.invokePipAsModule": true,
+  "python.path": "python3.7",
+  "python.installVirtualenv": true
 
 }
