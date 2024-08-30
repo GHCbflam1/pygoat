@@ -31,4 +31,8 @@ EXPOSE 8000
 
 RUN python3 /app/pygoat/manage.py migrate
 WORKDIR /app/pygoat/
+# Mend traceability labels
+LABEL io.mend.image.dockerfile.path=master/Dockerfile
+LABEL org.opencontainers.image.source=https://github.com/GHCbflam1/pygoat
+
 CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--workers","6", "pygoat.wsgi"]
